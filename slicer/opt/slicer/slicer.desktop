@@ -1,7 +1,7 @@
 [Desktop Entry]
-Name=knee
+Name=Slicer
 Comment=3D Slicer
-Exec=/opt/slicer/knee ${SLICER_ARGUMENTS}
+Exec=/opt/slicer/knee --additional-module-paths /home/researcher/slicerExtensions/SlicerChronicle/SlicerChronicle /home/researcher/slicerExtensions/SlicerWeb/WebServer
 Terminal=false
 Type=Application
 Encoding=UTF-8

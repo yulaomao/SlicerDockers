@@ -73,4 +73,4 @@ COPY /home/researcher/.slicerrc.py /home/researcher
 RUN chown -R researcher:researcher /home/researcher/.slicerrc.py
 
 # configure slicer as needed
-ENV SLICER_ARGUMENTS="--additional-module-paths ${S4EXT}/SlicerChronicle/SlicerChronicle ${S4EXT}/SlicerWeb/WebServer"
+ENV SLICER_ARGUMENTS="--additional-module-paths /home/researcher/slicerExtensions/SlicerChronicle/SlicerChronicle /home/researcher/slicerExtensions/SlicerWeb/WebServer"
